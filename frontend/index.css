@@ -1,0 +1,71 @@
+
+
+body {
+    font-family: "Monda", sans-serif;
+    font-size: 1.6rem;
+    margin: auto;
+    max-width: 60rem;
+    color: #050a6f;
+
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+}
+
+.general-forms {
+    font-family: Arial, helvetica, sans-serif;
+
+    text-align: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#accountInfo {
+    text-align: center;
+}
+
+#gameScreenDiv {
+    text-align: center;
+}
+
+#gameScreen {
+    border: 1px solid rgb(6, 6, 6);
+
+}
+
+#logInButton:hover {
+    background-color: lightblue;
+}
+
+#signUpButton:hover {
+    background-color: lightBlue;
+}
+
+.a-comment {
+    background-color: lightpink;
+    padding-left: 3px;
+    
+}
+
+#newCommentButton:hover {
+    background-color: lightBlue;
+}
+
+#controls {
+    text-align: center;
+
+    font-family: Arial, helvetica, sans-serif;
+
+    color: purple;
+
+}
