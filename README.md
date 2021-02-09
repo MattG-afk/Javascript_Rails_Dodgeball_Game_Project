@@ -5,3 +5,6 @@
 
 
  Install: To install feel free to fork the code and the run open index.html. you can also make a account and save your data.
+
+
+Commit Issue: Due to a Unforseen Error I had trouble committing messages. 
